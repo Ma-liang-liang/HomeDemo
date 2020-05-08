@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HomeDemo'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HomeDemo.'
+  s.summary          = 'fdjkhdjhbkdjhs房间号到附近活动经费到附近.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,20 +18,22 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: djhksdajdsajsdajsdajdsj都是点击恢复的减肥的
                        DESC
 
-  s.homepage         = 'https://github.com/1663466426@qq.com/HomeDemo'
+  s.homepage         = 'https://github.com/Ma-liang-liang/HomeDemo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '1663466426@qq.com' => '1663466426@qq.com' }
-  s.source           = { :git => 'https://github.com/1663466426@qq.com/HomeDemo.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:Ma-liang-liang/HomeDemo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.swift_version='5.0'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'HomeDemo/Classes/**/*'
-  
+  s.dependency 'SnapKit'
+
   # s.resource_bundles = {
   #   'HomeDemo' => ['HomeDemo/Assets/*.png']
   # }

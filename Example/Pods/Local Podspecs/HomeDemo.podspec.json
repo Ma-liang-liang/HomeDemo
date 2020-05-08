@@ -1,0 +1,28 @@
+{
+  "name": "HomeDemo",
+  "version": "0.1.0",
+  "summary": "fdjkhdjhbkdjhs房间号到附近活动经费到附近.",
+  "description": "TODO: djhksdajdsajsdajsdajdsj都是点击恢复的减肥的",
+  "homepage": "https://github.com/Ma-liang-liang/HomeDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1663466426@qq.com": "1663466426@qq.com"
+  },
+  "source": {
+    "git": "git@github.com:Ma-liang-liang/HomeDemo.git",
+    "tag": "0.1.0"
+  },
+  "swift_version": "5.0",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "HomeDemo/Classes/**/*",
+  "dependencies": {
+    "SnapKit": [
+
+    ]
+  }
+}
